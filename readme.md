@@ -8,10 +8,6 @@ This is the ReadMe for gitFit under development by Team 1 from WDI 7 comprised o
 * [B West](https://github.com/benjaminwest1046)
 
 
-#### Git Repository
-
-The master branch of this project as at date is at [benjaminwest1046/project3-fitness](https://github.com/benjaminwest1046/project3-fitness)
-
 #### Heroku Deployment
 
 A live demo of the application can be viewed at [Heroku at gitfit-wdi](https://intense-escarpment-84969.herokuapp.com/)
