@@ -3,10 +3,10 @@ angular.module('myApp')
 .component('goals', {
   template:
   `
-    <h1>GOALS</h1> <a ui-sref="goal-new" class="waves-effect waves-light btn green">New</a>
+    <h2>Your Goals</h2> <a ui-sref="goal-new" class="waves-effect waves-light btn green">New</a>
 
       <div class="section">
-        <h2>Upcoming Goals</h2>
+        <h3>Upcoming Goals</h3>
         <div class="row">
           <div class="col l4" ng-repeat = "goal in $ctrl.goals | filter: { completed: false }">
             <div class="card">
@@ -47,7 +47,7 @@ angular.module('myApp')
 
       <div class="divider"></div>
       <div class="section">
-        <h2>Completed Goals</h2>
+        <h3>Completed Goals</h3>
         <div class="row">
           <div class="col l4" id="cardcolumn"s ng-repeat = "goal in $ctrl.goals | filter: { completed: true } | orderBy: 'dateToComplete'">
             <div class="card">
