@@ -21,8 +21,8 @@ angular.module('myApp')
                 <p>Due:</p>
                 <span class="datespan">{{ goal.dateToComplete  | date:'EEEE, MMMM d, y' }}</span>
                 <br>
-                <p>Completed:</p>
-                <span ng-hide="goal.completed" ng-click="$ctrl.toggle(goal)" aria-hidden="true"><i class="material-icons medium left">radio_button_unchecked</i></span>
+                <p>Mark Complete</p>
+                <span ng-hide="goal.completed" ng-click="$ctrl.toggle(goal)" aria-hidden="true"><i class="material-icons medium left">done</i></span>
                 <br>
                 <br>
               </div>
