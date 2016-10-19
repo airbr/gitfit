@@ -14,7 +14,7 @@ The master branch of this project as at date is at [benjaminwest1046/project3-fi
 
 #### Heroku Deployment
 
-A dist of this project has been deployed on [Heroku at gitfit-wdi](https://gitfit-wdi.herokuapp.com/)
+A live demo of the application can be viewed at [Heroku at gitfit-wdi](https://intense-escarpment-84969.herokuapp.com/)
 
 #### Project specifications:
 
