@@ -1,11 +1,11 @@
-# Team 1 Project 3 WDI 7: 'gitFit' (formerly Fitness ToDo-ish app)
+# 'gitFit' (formerly Fitness ToDo-ish app)
 
 This is the ReadMe for gitFit under development by Team 1 from WDI 7 comprised of:
 
->* [J Lovell](https://github.com/joshualyle)
-* [B Murrah](https://github.com/airbr)
-* [C Smith](https://github.com/coredelle)
-* [B West](https://github.com/benjaminwest1046)
+>* [Joshua Lovell](https://github.com/joshualyle)
+* [Morgan Murrah](https://github.com/airbr)
+* [Coredelle Smith](https://github.com/coredelle)
+* [Benjamin West](https://github.com/benjaminwest1046)
 
 
 #### Heroku Deployment
@@ -59,9 +59,4 @@ Brian works out every day. He is training for a marathon that is coming up in th
 Charlamagne hates working out. He needs to work out because he was informed by his doctor that his health is in jeopardy, but he finds it hard to get motivated. The only thing that keeps him going back on a regular basis is his gitFit app. A wave of guilt washes over him every time he allows one of his goals to expire without having been completed, so he does his best not to let it happen often. Charlamagne has been seeing improvements in his health since using the app, and he has recommended it to his friends.
 
 ![](public/pictures/screen-shot3.png)
-
-
-
-
-#### Development notes:
 
