@@ -2,10 +2,16 @@
 
 ##### Install Instructions:
 
-(TODO)
-
-
-
+1. Clone the repository `git clone https://github.com/airbr/gitfit.git` and change into the directory `cd gitfit`
+2. Install Front end dependencies with Bower `bower install`
+3. Install Node packages `npm install`
+4. Get MongoDB up and running. If you do not have it installed, homebrew is reccomended (`brew install mongodb`)
+    * You can start Mongo without configuring a background process with: `mongod --config /usr/local/etc/mongod.conf`
+5. Seed the Database `node seeds.js`
+6. Run the server locally `node bin/www`
+7. Visit `localhost:3000`
+    
+Happy Developing!    
 
 #### Team
 
