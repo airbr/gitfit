@@ -1,24 +1,37 @@
-# 'gitFit' (formerly Fitness ToDo-ish app)
+# 'gitFit' 
 
-This is the ReadMe for gitFit under development by Team 1 from WDI 7 comprised of:
+##### Install Instructions:
 
->* [Joshua Lovell](https://github.com/joshualyle)
+1. Clone the repository `git clone https://github.com/airbr/gitfit.git` and change into the directory `cd gitfit`
+2. Install Front end dependencies with Bower `bower install`
+3. Install Node packages `npm install`
+4. Get MongoDB up and running. If you do not have it installed, homebrew is reccomended (`brew install mongodb`)
+    * You can start Mongo without configuring a background process with: `mongod --config /usr/local/etc/mongod.conf`
+5. Seed the Database `node seeds.js`
+6. Run the server locally `node bin/www`
+7. Visit `localhost:3000`
+    
+Happy Developing!    
+
+#### Team
+
+gitFit is a simple MEAN Stack App collaborated on by:
+
+* [Joshua Lovell](https://github.com/joshualyle)
 * [Morgan Murrah](https://github.com/airbr)
 * [Coredelle Smith](https://github.com/coredelle)
 * [Benjamin West](https://github.com/benjaminwest1046)
 
-
 #### Heroku Deployment
 
-A live demo of the application can be viewed at [Heroku at gitfit-wdi](https://intense-escarpment-84969.herokuapp.com/)
+*Placeholder for Re-deploy*
 
-#### Project specifications:
 
-This project aims to meet the specifications outlined in the WDI Curriculum: [Project 3 Requirements](https://github.com/ATL-WDI-Curriculum/projects/blob/master/project3.md)
+[A live deploy of the initial version of the application (git tagged v1.0) can be viewed at this link on Heroku](https://intense-escarpment-84969.herokuapp.com/)
 
-#### Trello
+#### Project specs:
 
-[The Trello for this project is/should be publicly viewable at this link](https://trello.com/b/6o7h6Y7U/project3-fitness-todo-ish-app)
+This project was originally created as a part of the WDI Curriculum to make an entry level MEAN Stack App: [Project 3 Requirements](https://github.com/ATL-WDI-Curriculum/projects/blob/master/project3.md). [The original Trello fro this project is at this link](https://trello.com/b/6o7h6Y7U/project3-fitness-todo-ish-app)
 
 #### Technologies:
 
@@ -28,22 +41,26 @@ This app utilizes the MEAN Stack including:
 * CSS3
 * Materialize CSS Library
 * Javascript
-* Node JS (MEA**N**)
-* Express JS (M**E**AN)
-* Angular JS (ME**A**N)
+* NodeJS
+* Express 
+* AngularJS 
 * Mongoose
-* MongoDB (**M**EAN)
+* MongoDB 
 * Toastr non-blocking notifications library
 
-#### Resources:
 
+#### Development Log:
 
+`v1.0` Is essentially the original gitFit app created in the space of three weeks, during the WDI course late 2016 in an excellent team effort.
 
-#### Version updates:
+`v2-Morgan` is my fork to revamp the application. Trying to get an old project to start is always a good way to jog the memory.
 
-
+ 
 #### User Stories:
 
+(Commented out, as was largely project result specific)
+
+<!-- 
 Maryann is a attorney that always has a full schedule. She constantly tries to fit working out into her daily regimen, but with all of the paperwork she handles on a regular basis she finds it hard to keep track of the notebook that she writes her workouts in. Luckily for her, she found the gitFit web app. With gitFit, she can not only access her workouts from anywhere, but she can monitor the details of her workouts and check them off as they are completed. She can create and delete new goals at her leisure and no longer has to worry about that pesky notebook.
 
 ![](public/pictures/screen-shot1.png)
@@ -59,4 +76,4 @@ Brian works out every day. He is training for a marathon that is coming up in th
 Charlamagne hates working out. He needs to work out because he was informed by his doctor that his health is in jeopardy, but he finds it hard to get motivated. The only thing that keeps him going back on a regular basis is his gitFit app. A wave of guilt washes over him every time he allows one of his goals to expire without having been completed, so he does his best not to let it happen often. Charlamagne has been seeing improvements in his health since using the app, and he has recommended it to his friends.
 
 ![](public/pictures/screen-shot3.png)
-
+-->
